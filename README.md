@@ -3,10 +3,11 @@
 
 在MGShaderEditor的基础上做了一些扩展
 
-1.支持2d shader.
-2.数据持久化
-3.支持动画显示
+1. 支持2d shader.
+2. 数据持久化
+3. 支持动画显示
 
+![MGShaderEditor](http://2017studio.oss-accelerate.aliyuncs.com/1.gif)
 
 
 原文
