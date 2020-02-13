@@ -10,8 +10,8 @@ namespace MGShaderEditor.Persistence
     {
         public int RecWidth = 640;
         public int RecHeight = 480;
-        public String LastOpenendPath = "";
-        internal string TexturePath;
+        public string LastOpenendPath = "";
+        public string TexturePath = "";
         public RenderMode RenderMode;
     }
 }

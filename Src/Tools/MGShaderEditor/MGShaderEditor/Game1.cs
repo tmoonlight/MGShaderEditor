@@ -177,8 +177,14 @@ namespace MGShaderEditor
         /// <param name="gameTime"></param>
         private void FullscreenUpdater(GameTime gameTime)
         {
-            if ((int)gameTime.TotalGameTime.TotalMilliseconds % 25 == 0)
+            if ((int) gameTime.TotalGameTime.TotalMilliseconds % 25 == 0)
+            {
                 this.u_time++;
+                if (u_time > 9998)
+                {
+                    u_time = 0;
+                }
+            }
 
             float val = (float)Math.Sin(this.u_time / 15.0f);
 

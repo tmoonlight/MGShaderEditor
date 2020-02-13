@@ -1,5 +1,16 @@
 # MGShaderEditor
 
+
+在MGShaderEditor的基础上做了一些扩展
+
+1.支持2d shader.
+2.数据持久化
+3.支持动画显示
+
+
+
+原文
+=================
 Pixel and Vertex HLSL Shader Editor for MonoGame's Effects.
 
 Code: ProcFxGen

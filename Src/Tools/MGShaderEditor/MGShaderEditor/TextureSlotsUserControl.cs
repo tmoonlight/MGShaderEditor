@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using Microsoft.Xna.Framework.Graphics;
 using System.IO;
 using System.Diagnostics;
+using MGShaderEditor.Persistence;
 
 namespace MGShaderEditor
 {
@@ -83,6 +84,12 @@ namespace MGShaderEditor
             try
             {
                 SetTextureSlot(nSlotIdx, openFileDialog1.FileName);
+                if (nSlotIdx == 0)
+                {
+                    MainForm.Config.TexturePath = openFileDialog1.FileName;
+                    MainForm.Config.SaveChanges();
+                }
+
             }
             catch (Exception ex)
             {
