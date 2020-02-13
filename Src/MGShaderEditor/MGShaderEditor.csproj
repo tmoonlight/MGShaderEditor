@@ -68,94 +68,94 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\2MGFX\CommandLineParser.cs">
+    <Compile Include="..\2MGFX\CommandLineParser.cs">
       <Link>2MGFX\CommandLineParser.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ConstantBufferData.cs">
+    <Compile Include="..\2MGFX\ConstantBufferData.cs">
       <Link>2MGFX\ConstantBufferData.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ConstantBufferData.mojo.cs">
+    <Compile Include="..\2MGFX\ConstantBufferData.mojo.cs">
       <Link>2MGFX\ConstantBufferData.mojo.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ConstantBufferData.sharpdx.cs">
+    <Compile Include="..\2MGFX\ConstantBufferData.sharpdx.cs">
       <Link>2MGFX\ConstantBufferData.sharpdx.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ConstantBufferData.writer.cs">
+    <Compile Include="..\2MGFX\ConstantBufferData.writer.cs">
       <Link>2MGFX\ConstantBufferData.writer.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\EffectObject.cs">
+    <Compile Include="..\2MGFX\EffectObject.cs">
       <Link>2MGFX\EffectObject.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\EffectObject.hlsl.cs">
+    <Compile Include="..\2MGFX\EffectObject.hlsl.cs">
       <Link>2MGFX\EffectObject.hlsl.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\EffectObject.pssl.cs">
+    <Compile Include="..\2MGFX\EffectObject.pssl.cs">
       <Link>2MGFX\EffectObject.pssl.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\EffectObject.writer.cs">
+    <Compile Include="..\2MGFX\EffectObject.writer.cs">
       <Link>2MGFX\EffectObject.writer.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\IEffectCompilerOutput.cs">
+    <Compile Include="..\2MGFX\IEffectCompilerOutput.cs">
       <Link>2MGFX\IEffectCompilerOutput.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\MarshalHelper.cs">
+    <Compile Include="..\2MGFX\MarshalHelper.cs">
       <Link>2MGFX\MarshalHelper.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\MojoShader.cs">
+    <Compile Include="..\2MGFX\MojoShader.cs">
       <Link>2MGFX\MojoShader.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\Options.cs">
+    <Compile Include="..\2MGFX\Options.cs">
       <Link>2MGFX\Options.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\Parser.cs">
+    <Compile Include="..\2MGFX\Parser.cs">
       <Link>2MGFX\Parser.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ParseTree.cs">
+    <Compile Include="..\2MGFX\ParseTree.cs">
       <Link>2MGFX\ParseTree.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ParseTreeTools.cs">
+    <Compile Include="..\2MGFX\ParseTreeTools.cs">
       <Link>2MGFX\ParseTreeTools.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\PassInfo.cs">
+    <Compile Include="..\2MGFX\PassInfo.cs">
       <Link>2MGFX\PassInfo.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\Preprocessor.cs">
+    <Compile Include="..\2MGFX\Preprocessor.cs">
       <Link>2MGFX\Preprocessor.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\SamplerStateInfo.cs">
+    <Compile Include="..\2MGFX\SamplerStateInfo.cs">
       <Link>2MGFX\SamplerStateInfo.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\Scanner.cs">
+    <Compile Include="..\2MGFX\Scanner.cs">
       <Link>2MGFX\Scanner.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderCompilerException.cs">
+    <Compile Include="..\2MGFX\ShaderCompilerException.cs">
       <Link>2MGFX\ShaderCompilerException.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderData.cs">
+    <Compile Include="..\2MGFX\ShaderData.cs">
       <Link>2MGFX\ShaderData.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderData.mojo.cs">
+    <Compile Include="..\2MGFX\ShaderData.mojo.cs">
       <Link>2MGFX\ShaderData.mojo.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderData.pssl.cs">
+    <Compile Include="..\2MGFX\ShaderData.pssl.cs">
       <Link>2MGFX\ShaderData.pssl.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderData.sharpdx.cs">
+    <Compile Include="..\2MGFX\ShaderData.sharpdx.cs">
       <Link>2MGFX\ShaderData.sharpdx.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderData.writer.cs">
+    <Compile Include="..\2MGFX\ShaderData.writer.cs">
       <Link>2MGFX\ShaderData.writer.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderInfo.cs">
+    <Compile Include="..\2MGFX\ShaderInfo.cs">
       <Link>2MGFX\ShaderInfo.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\ShaderProfile.cs">
+    <Compile Include="..\2MGFX\ShaderProfile.cs">
       <Link>2MGFX\ShaderProfile.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\TechniqueInfo.cs">
+    <Compile Include="..\2MGFX\TechniqueInfo.cs">
       <Link>2MGFX\TechniqueInfo.cs</Link>
     </Compile>
-    <Compile Include="..\..\2MGFX\TextureFilterType.cs">
+    <Compile Include="..\2MGFX\TextureFilterType.cs">
       <Link>2MGFX\TextureFilterType.cs</Link>
     </Compile>
     <Compile Include="Controls\SlideCtrl.cs">
@@ -280,11 +280,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\MonoGame.Framework\MonoGame.Framework.Windows.csproj">
+    <ProjectReference Include="..\MonoGame.Framework\MonoGame.Framework.Windows.csproj">
       <Project>{7de47032-a904-4c29-bd22-2d235e8d91ba}</Project>
       <Name>MonoGame.Framework.Windows</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
